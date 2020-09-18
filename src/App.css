@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.training,
+.descriptive,
+.adprev,
+.experience,
+.contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.descriptive {
+  background-image: url("/images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #abed68;
+  font-size: 100px;
+}
+
+.adprev {
+  background-image: url("/images/img-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #abed68;
+  font-size: 100px;
+}
+
+.training {
+  background-image: url("/images/img-4.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #abed68;
+  font-size: 100px;
+}
+
+.experience {
+  background-image: url("/images/img-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #abed68;
+  font-size: 100px;
+}
+
+.contact {
+  background-image: url("/images/img-8.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #abed68;
+  font-size: 100px;
+}
+
+.span__prevoyance {
+  display: flex;
+  flex-direction: column;
+  margin-left: 43.6%;
+  margin-top: 0;
+  text-align: inherit;
+}
+
+span {
+  color: #abed68;
+  font-size: 40px;
+  padding-top: 20px;
+}
